@@ -41,3 +41,9 @@ sudo apt-get install curl openvpn git -y
 curl -L https://install.pivpn.io | bash
 
 More information on pi vpn can be found here: https://pivpn.io/
+
+# Using Containers
+
+containers.sh
+
+This script will install OpenVPN and iptables, download the OpenVPN configuration files, start the OpenVPN service, configure IP forwarding, configure iptables for NAT, and start the container. Note that you will need to modify the script to match your specific OpenVPN configuration and server details.
