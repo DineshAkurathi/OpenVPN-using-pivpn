@@ -14,7 +14,7 @@ SSH can be activated in your raspberry pi using the file "activate-ssh.sh" for e
 
 Xrdp client will allow us to access the server’s desktop interface. This can be done by following command:
 
-sudo apt install xrdp -y
+```sudo apt install xrdp -y```
 
 # Configure Static IP in the home router:
 
@@ -36,9 +36,9 @@ https://github.com/DineshAkurathi/OpenVPN-using-pivpn/blob/main/adlist
 
 PiVPN is a tool that allows users to set up a Virtual Private Network (VPN) server on a Raspberry Pi device. This allows users to create a secure and private connection between their devices, such as computers, smartphones, and tablets. PI VPN can be set up using the following commands:
 
-sudo apt-get install curl openvpn git -y
+```sudo apt-get install curl openvpn git -y```
 
-curl -L https://install.pivpn.io | bash
+```curl -L https://install.pivpn.io | bash```
 
 More information on pi vpn can be found here: https://pivpn.io/
 
